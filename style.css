@@ -1,0 +1,73 @@
+/* Windows 95 Engineering Edition */
+body {
+    background-color: #008080;
+    font-family: "Courier New", monospace;
+    margin: 20px;
+    color: #000;
+}
+
+.main-window {
+    background-color: #c0c0c0;
+    border: 3px solid;
+    border-color: #fff #808080 #808080 #fff;
+    width: 640px;
+    margin: 20px auto;
+}
+
+.title-bar {
+    background-color: #000080;
+    color: #fff;
+    padding: 3px 4px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.content {
+    padding: 15px;
+}
+
+.nav-button {
+    background-color: #c0c0c0;
+    border: 2px solid;
+    border-color: #fff #808080 #808080 #fff;
+    padding: 3px 12px;
+    margin: 5px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+
+.nav-button:active {
+    border-color: #808080 #fff #fff #808080;
+}
+
+.project-box {
+    background: #fff;
+    border: 2px solid #000;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.skill-chip {
+    background: #000080;
+    color: #fff;
+    padding: 2px 8px;
+    margin: 2px;
+    display: inline-block;
+}
+
+footer{
+    background-color: #c0c0c0;
+    border-top: 3px solid #fff;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: -20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-time{
+    color: #000;
+}
