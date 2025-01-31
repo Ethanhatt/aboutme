@@ -6,10 +6,27 @@ body {
     color: #000;
 }
 
+.desktop-icons-bar {
+    position: absolute;
+    margin: 15px;
+    left: 0;
+    top: 0;
+    height: 100vh; /* make the container as tall as the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desktop-icon {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 35px; /* add some space between icons */
+}
+
 .main-window {
     background-color: #c0c0c0;
     border: 3px solid;
-    border-color: #fff #808080 #808080 #fff;
+    border-color: #fff #3d3d3d #3d3d3d #fff;
     width: 690px;
     margin: 20px auto;
 }
@@ -17,9 +34,9 @@ body {
 .title-bar {
     background-color: #000080;
     color: #fff;
-    padding: 3px 4px;
+    padding: 6px 5px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .content {
@@ -56,7 +73,7 @@ body {
     display: inline-block;
 }
 
-footer{
+footer {
     background-color: #c0c0c0;
     border-top: 3px solid #fff;
     color: white;
@@ -81,8 +98,38 @@ footer{
     margin: 0 3px 3px 0;
 }
 
+.footer-time:hover {
+    cursor: default;
+}
+
 .footer-time-text {
     color: #000;
     font-weight: bold;
     white-space: nowrap;
+}
+
+.footer-start {
+    float: left;
+    font-size: 28px;
+    padding: 4px 5px 2px 5px;
+    min-width: 100px;
+    border: 2.5px solid;
+    text-align: center;
+    border-color: #fff #808080 #808080 #fff;
+    margin: 0 0 3px 3px;
+}
+
+.footer-start:active {
+    border-color: #808080 #fff #fff #808080;
+}
+
+.footer-start:hover {
+    cursor: pointer;
+}
+
+.footer-start-text {
+    color: #000;
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 0;
 }
