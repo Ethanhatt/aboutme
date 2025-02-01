@@ -15,28 +15,47 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .desktop-icon {
-    width: 90px;
-    height: 90px;
-    margin-bottom: 35px; /* add some space between icons */
+    width: 60px;
+    height: 60px;
+}
+
+.icon-caption {
+    margin: 0;
+    font-size: 18.5px;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 50px;
 }
 
 .main-window {
     background-color: #c0c0c0;
     border: 3px solid;
     border-color: #fff #3d3d3d #3d3d3d #fff;
-    width: 690px;
+    width: 700px;
     margin: 20px auto;
 }
 
 .title-bar {
     background-color: #000080;
     color: #fff;
-    padding: 6px 5px;
+    padding: 5px 4px 8px 8px;
     font-weight: bold;
     font-size: 15px;
+}
+
+.X-button{
+    background-color: #c0c0c0;
+    float: right;
+    border: 2px solid;
+    border-color: #fff #2b2b2b #2b2b2b #fff;
+}
+
+.X-button:hover{
+    cursor: pointer;
 }
 
 .content {
